@@ -9,9 +9,9 @@ const tabData = [
 		id: "skills",
 		content: (
 			<ul className="list-disc pl-2">
+				<li>Next.js</li>
 				<li>React</li>
 				<li>TypeScript</li>
-				<li>Next.js</li>
 				<li>Node.js</li>
 				<li>Express</li>
 				<li>MongoDB</li>
@@ -34,6 +34,7 @@ const tabData = [
 		content: (
 			<ul className="list-disc pl-2">
 				<li>Diploma in Front-end Engineering, AltSchool Africa</li>
+				<li>Meta Frontend Developer Certificate</li>
 				<li>Google Data Analytics Professional Certificate</li>
 			</ul>
 		),
@@ -52,7 +53,7 @@ const About = () => {
 		<section className="text-white">
 			<div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
 				<Image
-					className="rounded-tl"
+					className="rounded"
 					src="/images/about-image.png"
 					width={500}
 					height={500}

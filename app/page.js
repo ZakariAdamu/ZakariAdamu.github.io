@@ -1,7 +1,8 @@
-import About from "./components/About";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
 import Projects from "./components/Projects";
+import EmailForm from "./components/EmailForm";
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 				<Hero />
 				<About />
 				<Projects />
+				<EmailForm />
 			</div>
 		</main>
 	);

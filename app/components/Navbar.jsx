@@ -31,7 +31,7 @@ const Navbar = () => {
 					href={"/"}
 					className="text-2xl md:text-2xl text-slate-300 font-sans font-semibold border-b border-b-blue-300"
 				>
-					AISHUB
+					Zakari
 				</Link>
 				<div className="mobile-menu block md:hidden">
 					{!navbarOpen ? (

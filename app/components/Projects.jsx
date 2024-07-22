@@ -50,7 +50,7 @@ const Projects = () => {
 				<ProjectTag
 					onClick={handleTagChange}
 					name="Web"
-					isSelected={tag === "Web"}
+					isSelected={tag === "Web"} 
 				/>
 				<ProjectTag
 					onClick={handleTagChange}
