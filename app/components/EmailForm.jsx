@@ -1,6 +1,5 @@
 import React from "react";
 import GitHubIcon from "/public/social-icons/logo-github-svgrepo-com.svg";
-import { FaGithub } from "react-icons/fa";
 import LinkedinIcon from "/public/social-icons/linkedin-logo-svgrepo-com.svg";
 import Image from "next/image";
 import Link from "next/link";
